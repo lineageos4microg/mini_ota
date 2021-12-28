@@ -9,7 +9,6 @@ define('ARCHIVE_PATH', getenv('ARCHIVE_PATH', true));
 define('ARCHIVE_URL', getenv('ARCHIVE_URL', true));
 define('PROP_TIMESTAMP_MARGIN', getenv('PROP_TIMESTAMP_MARGIN', true));
 
-echo PROP_TIMESTAMP_MARGIN . " " . ARCHIVE_PATH . " " . ARCHIVE_URL;
 
 if(!isset($_SERVER['REQUEST_URI']))
 	die('Invalid request / Missing $_SERVER[\'REQUEST_URI\']');
